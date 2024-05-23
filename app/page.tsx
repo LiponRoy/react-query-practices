@@ -1,9 +1,9 @@
-import Image from "next/image";
+import GetData from "@/components/GetData";
 
 export default function Home() {
   return (
     <div className="">
-      React Query .....
+     <GetData/>
     </div>
   );
 }
